@@ -46,7 +46,7 @@ public class Persistencia {
         inicializarEspecies();
         inicializarSectores();
         inicializarPaises();
-        inicializarAnimales();
+//        inicializarAnimales();
     }
 
     public static ArrayList<Mamifero> getAnimales() {

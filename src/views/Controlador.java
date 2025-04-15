@@ -127,5 +127,28 @@ public class Controlador {
     }  catch(Exception e){
             JOptionPane.showMessageDialog(null,e.getMessage());
         }
-    }   
+    } 
+    
+    public static void MostrarVistaLista(){
+        CerrarVista(view);
+        view = new ListarAnimalesView();
+        MostrarVista(view);
+    }
+        public static void MostrarVistaMenu(){
+        CerrarVista(view);
+        view = new MenuView();
+        MostrarVista(view);
+    }
+    public static void MostrarVistaCargarAnimales(){
+        CerrarVista(view);
+        view = new CargarAnimalesView();
+        MostrarVista(view);
+    }
+    
+    public static void MostrarVista(javax.swing.JFrame view){
+        view.setVisible(true);
+    }
+    public static void CerrarVista(javax.swing.JFrame view){
+        view.setVisible(false);
+    }
 }
