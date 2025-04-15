@@ -230,7 +230,7 @@ public class CargarAnimalesView extends javax.swing.JFrame {
     }//GEN-LAST:event_jButtonGuardarActionPerformed
 
     private void jButtonCancelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonCancelActionPerformed
-        // TODO add your handling code here:
+       Controlador.MostrarVistaMenu();
         
     }//GEN-LAST:event_jButtonCancelActionPerformed
 
