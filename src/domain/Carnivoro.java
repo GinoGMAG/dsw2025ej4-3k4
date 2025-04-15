@@ -6,7 +6,7 @@ public class Carnivoro extends Mamifero {
     private static double porcentajeExtra = 0.1;
     private static double pesoMaximo = 200;
 
-    public Carnivoro(int edad, double peso, Especie especie, Sector sector) throws InvalidPropertiesFormatException {
+    public Carnivoro(int edad, double peso, Especie especie, Sector sector, Pais pais) throws InvalidPropertiesFormatException {
         super(TipoAlimentacion.CARNIVORO, edad, peso, especie, sector);
     }
 
